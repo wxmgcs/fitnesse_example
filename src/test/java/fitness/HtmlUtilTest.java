@@ -70,7 +70,7 @@ public class HtmlUtilTest {
 	}
 	
 	private Map<String, String> buildPageAttributes () {
-		Map<String, String> pageAttributes = new HashMap<> ();
+		Map<String, String> pageAttributes = new HashMap<String, String> ();
 		pageAttributes.put ("Test", "Test");
 		return pageAttributes;
 	}

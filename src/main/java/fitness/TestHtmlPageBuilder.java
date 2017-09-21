@@ -13,7 +13,6 @@ public class TestHtmlPageBuilder implements HtmlPageBuilder {
 		this.wikiPage = pageData.getWikiPage();
 	}
 
-	@Override
 	public String buildPage() throws Exception {
 		addSuiteSetup();
 		addPageSetup();

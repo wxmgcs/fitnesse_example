@@ -6,7 +6,7 @@ import java.util.Map;
 public class PageData {
 	
 	private String content;
-	private Map<String, String> attributes = new HashMap<> ();
+	private Map<String, String> attributes = new HashMap<String, String> ();
 	private WikiPage wikiPage;
 	
 	public PageData (String content, Map<String, String> attributes) {
